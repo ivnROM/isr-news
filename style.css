@@ -1,0 +1,12 @@
+#noticia-card {{
+    border: 2px solid white;
+    border-radius: 10px;
+}}
+
+#noticia-title-label {{
+    font-size: 18px;
+}}
+
+#noticia-fecha-label {{
+       
+}}
