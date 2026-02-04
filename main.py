@@ -29,7 +29,9 @@ class MainWindow(QMainWindow):
         root_layout.addWidget(body_container)
         titulo = QLabel("Central de Noticias")
         titulo.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        json_button = QPushButton("Descargar JSON")
         header_layout.addWidget(titulo)
+        header_layout.addWidget(json_button)
 
         scrollarea = QScrollArea()
         body_layout.addWidget(scrollarea)
